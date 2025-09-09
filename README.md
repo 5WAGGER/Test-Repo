@@ -6,4 +6,4 @@ Website that will be using Mongo DB, Express.js, React.js, and Node.js
 
 I'm learning something new each day!
 
-
+That is quite swag that I can stage, commit and finally push to a remote repository!
