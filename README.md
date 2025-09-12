@@ -9,3 +9,6 @@ I'm learning something new each day!
 That is quite swag that I can stage, commit and finally push to a remote repository!
 
 I am learning version control!
+
+
+I am being divergent on main branch
