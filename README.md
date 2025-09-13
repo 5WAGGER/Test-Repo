@@ -10,4 +10,4 @@ That is quite swag that I can stage, commit and finally push to a remote reposit
 
 I am learning version control!
 
-I am making a divergent change on develop branch
+I am making a divergent change on develop branch!
