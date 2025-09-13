@@ -10,7 +10,11 @@ That is quite swag that I can stage, commit and finally push to a remote reposit
 
 I am learning version control!
 
+## This is develop branch
+
 I am making a divergent change on develop branch
+
+## This is main branch
 
 I am being divergent on main branch
 
