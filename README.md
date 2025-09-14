@@ -1,6 +1,5 @@
-# Full-Stack-Projects!
-Website that will be using Mongo DB, Express.js, React.js, and Node.js 
-
+# Test-Repo!
+I this a test Repo for learning version control.
 
 ## I am looking forward to learning version control!
 
@@ -8,7 +7,7 @@ I'm learning something new each day!
 
 That is quite swag that I can stage, commit and finally push to a remote repository!
 
-I am learning version control!
+I am learning source control!
 
 ## This is develop branch
 
