@@ -11,9 +11,9 @@ I am learning source control!
 
 ## This is develop branch
 
-I am making a divergent change on develop branch
+I am making a divergent change on develop branch!
 
 ## This is main branch
 
-I am being divergent on main branch
+I am being divergent on main branch!
 
