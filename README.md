@@ -1,5 +1,5 @@
 # Back-End Project!
-Website that will be using Mongo DB, Express.js, React.js, and Node.js 
+This project will use Node.js 
 
 
 ## I am looking forward to learning version control!
