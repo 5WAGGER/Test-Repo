@@ -104,7 +104,7 @@ const scoopSeeds = () => {
 const portionFreshFruit = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const hascontainers = true;
+      const hascontainers = false;
 
       if (hascontainers) {
         resolve("Put fresh fruit in containers and refrigerate")
@@ -117,19 +117,24 @@ const portionFreshFruit = () => {
 
 
 const freshFruitPreparation = async () => {
-  const activityOne = await washFruit()
-  console.log(activityOne)
+  try {
+      const activityOne = await washFruit()
+      console.log(activityOne)
 
-  const activityTwo = await peelFruit()
-  console.log(activityTwo)
+      const activityTwo = await peelFruit()
+      console.log(activityTwo)
 
-  const activityThree = await scoopSeeds()
-  console.log(activityThree)
+      const activityThree = await scoopSeeds()
+      console.log(activityThree)
 
-  const activityFour = await portionFreshFruit()
-  console.log(activityFour)
+      const activityFour = await portionFreshFruit()
+      console.log(activityFour)
 
-  console.log("Ahh how satisfying to have fresh fruit ready!")
+      console.log("Ahh how satisfying to have fresh fruit ready!")
+  }
+  catch(error){
+    console.log(error)
+  }
 
 }
 
