@@ -104,7 +104,7 @@ const scoopSeeds = () => {
 const portionFreshFruit = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const hascontainers = false;
+      const hascontainers = true;
 
       if (hascontainers) {
         resolve("Put fresh fruit in containers and refrigerate")
