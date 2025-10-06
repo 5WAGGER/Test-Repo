@@ -58,6 +58,7 @@ if (rndInt == 1){
 
 //example of a Promises => Async - Await
 
+/* readable promises 
 
 const washFruit = () => {
   return new Promise((resolve, reject) => {
@@ -139,3 +140,33 @@ const freshFruitPreparation = async () => {
 }
 
 freshFruitPreparation()
+
+*/
+
+
+
+const loadJoke = async () => {
+
+  let output = "hmm"
+  try{
+      const jokeFetch = await fetch('https://api.chucknorris.io/jokes/random', {
+         headers: {
+            Accept: "application/json"
+         }
+      })
+
+      const jokeData = await jokeFetch.json()
+
+      
+      output = jokeData.value;
+      console.log(output)
+  }
+
+  catch(error) {
+    console.log(error)
+  }
+
+  return output
+}
+
+loadJoke()
