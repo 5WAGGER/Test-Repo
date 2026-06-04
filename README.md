@@ -17,3 +17,10 @@ I am making a divergent change on develop branch!
 
 I am being divergent on main branch!
 
+* Contact information 
+* Information about variables
+* Information about uncertainty
+* Data collection methods
+* Versioning and license references
+* Information about the structure and file naming of the data
+* References to publications that describe the dataset and/or its processing
